@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -lt /Users/shenfangda/Desktop/*.md 2>/dev/null | head; find /Users/shenfangda/Desktop -maxdepth 2 -name \"*.md\" -not -path \"*/node_modules/*\" -mtime -14 2>/dev/null | head -20)",
+      "Bash(mkdir -p \"/Users/shenfangda/Desktop/我的文档/serenity_发布版\")",
+      "Bash(npx tsc *)",
+      "Bash(npx vite *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)",
+      "Bash(lsof -iTCP -sTCP:LISTEN -P)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5175/ http://localhost:1420/)",
+      "Bash(npm install *)",
+      "Bash(python3 -)"
+    ]
+  }
+}
